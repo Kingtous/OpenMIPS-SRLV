@@ -54,7 +54,7 @@ module ex(
             case (aluop_i)
                 `EXE_SRLV_OP:
                 begin
-                    logicOut <= reg1_i >> reg2_i[4:0];
+                    logicOut <= reg2_i >> reg1_i[4:0]; // reg1为rs，reg2为rt, 指令为rt >> rs[4:0]
                 end
             default:
             begin
