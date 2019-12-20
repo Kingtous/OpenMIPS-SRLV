@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="openmips_min_sopc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="openmips_min_sopc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="67350000fs"></ZoomStartTime>
+      <ZoomEndTime time="217347875fs"></ZoomEndTime>
+      <Cursor1Time time="164407000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject type="logic" fp_name="/openmips_min_sopc_tb/CLOCK_50">
+      <obj_property name="ElementShortName">CLOCK_50</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_50</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/openmips_min_sopc_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc_reg0/ce">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_pc">
+      <obj_property name="ElementShortName">if_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_inst">
+      <obj_property name="ElementShortName">if_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/id_pc">
+      <obj_property name="ElementShortName">id_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/id_inst">
+      <obj_property name="ElementShortName">id_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/rdata1">
+      <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/rdata2">
+      <obj_property name="ElementShortName">rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex0/logicOut">
+      <obj_property name="ElementShortName">logicOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">logicOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0/mem_wdata">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0/wdata_o">
+      <obj_property name="ElementShortName">wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs">
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+   </wvobject>
+</wave_config>

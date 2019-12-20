@@ -39,6 +39,17 @@ module reg_file(
     
     //32个32位寄存器//
     reg[`RegBus] regs[0:`RegNum-1];
+    // 用12345678H初始化32个寄存器
+    reg cnt = `RegNum-1;
+    initial
+    begin
+        while (cnt>0)
+        begin
+            regs[cnt] <= 32'h12345678;
+            cnt <= cnt -1;
+        end
+    end
+   
     
     //写操作//
     always @ (posedge clk)

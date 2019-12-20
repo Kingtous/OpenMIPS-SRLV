@@ -33,7 +33,7 @@ module pc_reg(
         // 当复位时，要把IR的使能信号关闭，反之开启
         if (rst == `RstEnable)
             begin
-            ce <= `ChipDisable;
+            ce <= `ChipDisable; //芯片禁止为0
             end
         else
             begin

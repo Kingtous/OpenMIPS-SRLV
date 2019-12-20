@@ -28,7 +28,14 @@ module inst_rom(
     // 存储器初始化
     reg[`InstBus] inst_mem[0:`InstMemNum-1];
     // 使用.data文件进行初始化
-    initial $readmemh ("inst_rom.data",inst_mem);
+    initial 
+    begin
+        $readmemh ("inst_rom.data",inst_mem);
+        $display ("0x00: %h",inst_mem[8'h00]);
+        $display ("0x01: %h",inst_mem[8'h01]);
+        $display ("0x02: %h",inst_mem[8'h02]);
+        $display ("0x03: %h",inst_mem[8'h03]);
+    end
     
     always @ (*)
     begin

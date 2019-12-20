@@ -24,6 +24,9 @@ module openmips_min_sopc_tb(
     
     );
     
+    reg CLOCK_50;
+    reg rst;
+    
     // 每隔10ns翻转一次，一个周期翻转2次
     initial
     begin
@@ -34,7 +37,7 @@ module openmips_min_sopc_tb(
     initial
     begin
         rst = `RstEnable;
-        #195 rst = `RstDisable;
+        #100 rst = `RstDisable;
         #1000 $stop;
     end
     

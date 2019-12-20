@@ -2,12 +2,12 @@
 # Webtalk v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Fri Dec 20 11:09:01 2019
-# Process ID: 2721
+# Start of session at: Fri Dec 20 16:15:57 2019
+# Process ID: 9576
 # Current directory: /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav
-# Command line: wbtcv -mode batch -source /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/xsim.dir/openmips_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv -mode batch -source /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/xsim.dir/openmips_min_sopc_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/webtalk.log
 # Journal file: /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/webtalk.jou
 #-----------------------------------------------------------
-source /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/xsim.dir/openmips_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Fri Dec 20 11:09:02 2019...
+source /home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/xsim.dir/openmips_min_sopc_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 20 16:15:57 2019...
