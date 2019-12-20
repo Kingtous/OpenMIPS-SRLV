@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/ex.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/ex_mem.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/id.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/id_ex.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/if_id.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/mem.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/mem_wb.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/pc_reg.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/reg_file.v" --include "../../../general_reg.srcs/sources_1/new"
+verilog xil_defaultlib "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" "../../../general_reg.srcs/sources_1/new/openmips.v" --include "../../../general_reg.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

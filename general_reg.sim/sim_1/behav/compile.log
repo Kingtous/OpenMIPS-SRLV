@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/global_include.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/parallels/vproject/general_reg/general_reg.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

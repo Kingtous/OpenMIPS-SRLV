@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -18,12 +19,10 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-
 module openmips(
 
-	input	wire			clk,
-	input wire				rst,
+	input	wire										clk,
+	input wire										rst,
 	
  
 	input wire[`RegBus]           rom_data_i,
@@ -216,7 +215,7 @@ module openmips(
 		.wdata_o(mem_wdata_o)
 	);
 
-    //MEM/WB模块
+  //MEM/WB模块
 	mem_wb mem_wb0(
 		.clk(clk),
 		.rst(rst),
@@ -234,3 +233,4 @@ module openmips(
 	);
 
 endmodule
+
